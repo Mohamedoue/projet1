@@ -1,0 +1,237 @@
+
+
+/*navbar*/
+.menu{
+    transition: all 0.5s ease;
+}
+.menu:hover{
+ transform: translateY(-10px);
+}
+
+
+/*hero*/
+.hero{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url(../image/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titre{
+    font-size: 3rem;
+}
+.search{
+  position: relative;
+  top: 35%;
+}
+.lig{
+  height: 20vh;
+}
+.bien{
+  padding: 3%;
+}
+
+.message{
+  height: 30vh;
+}
+@media(max-width:768px){
+    
+    .titre{
+      font-size: 2rem;
+      padding-top: 40%;
+  }
+    .search{
+        width: 70%;
+        position: relative;
+        top: 2%;
+      }
+
+      .lig{
+        height: 70vh;
+      }
+      .message{
+        height: 60vh;
+        padding-top: 20%;
+      }
+}
+/*section apropos*/
+.texte{
+  color: #8b2424;
+}
+
+/*section apropos*/
+.villa{
+  width: 90%;
+  height: 15vh;
+  position: relative;
+  bottom: 10%;
+}
+
+/*section nos biens*/
+
+.glass{
+  background-color: #ffffff27;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+
+}
+
+.img{
+  width: 100%;
+  height: 45vh;
+}
+
+
+/*section dernier biens*/
+
+.dernier{
+  padding-top: 4%;
+  padding-bottom: 4%;
+background-color: #430f0f;
+}
+.image1{
+  background-image: url(../image/appartement1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 40vh;
+  transition:  0.5s ease;
+  overflow: hidden;
+}
+.image1:hover{
+  background-size: 120%;
+}
+.image2{
+  background-image: url(../image/appartement2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 40vh;
+  transition:  0.5s ease;
+  overflow: hidden;
+}
+.image2:hover{
+  background-size: 120%;
+}
+.image3{
+  background-image: url(../image/appartement3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 40vh;
+  transition:  0.5s ease;
+  overflow: hidden;
+}
+.image3:hover{
+  background-size: 120%;
+}
+
+.vendu{
+   margin-left: 13rem;  
+}
+.prix{
+ position: relative;
+ top: 8rem;
+}
+@media(max-width:768px){
+  .prix{
+    position: relative;
+    top: 6rem;
+   }
+}
+
+/*section avantage*/
+.nom{
+  color: #8b2424;
+}
+
+.bg-body{
+  background-color: #ffffff27;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.im{
+  width: 65%;
+  height: 35vh;
+  position: relative;
+  top: 6rem;
+}
+
+.equip{
+  padding-top: 40%;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .5);
+}
+/*section commune*/
+.ville{
+ padding-top: 10%;
+}
+
+.cocody{
+width: 110%;
+  height: 70vh;
+  background-image:  url(../image/cocody.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.adjame{
+  width: 110%;
+    height: 70vh;
+    background-image:  url(../image/adjame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .plateau{
+    width: 110%;
+      height: 70vh;
+      background-image:  url(../image/plateau.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .marcory{
+      width: 110%;
+        height: 70vh;
+        background-image:  url(../image/marcory.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      @media(max-width:768px){
+        .cocody{
+          width: 100%;
+            height: 70vh;
+            background-image:  url(../image/cocody.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          .adjame{
+            width: 100%;
+              height: 70vh;
+              background-image:  url(../image/adjame.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            .plateau{
+              width: 100%;
+                height: 70vh;
+                background-image:  url(../image/plateau.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+              }
+              .marcory{
+                width: 100%;
+                  height: 70vh;
+                  background-image:  url(../image/marcory.jpg);
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                }
+
+      }
+
+      /*pied*/
+      .pied{
+        padding-top: 6%;
+      }
+
+  
